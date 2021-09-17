@@ -130,7 +130,6 @@ a:hover {
 
 
 /* Workspace */
-
 .workspace-tabs {
 	background-color: var(--editor-background);
 	padding-right: 0px;
@@ -261,6 +260,35 @@ body:not(.is-grabbing) .nav-folder-title:hover {
 .suggestion-item.is-selected {
 	background-color: var(--light-red);
 	border-radius: 5px;
+}
+
+/* Graph */
+.workspace-leaf-content[data-type = "graph"] .view-content{
+  background-color: var(--leaf-bacckground);
+}
+
+.graph-view.color-fill {
+  color: var(--lavender);
+}
+
+.graph-view.color-circle {
+  color: var(--purple);
+}
+
+.graph-view.color-line {
+  color: var(--light-red);
+}
+
+.graph-view.color-text {
+  color: var(--lavender);
+}
+
+.graph-view.color-fill-highlight {
+  color: var(--light-red);
+}
+
+.graph-view.color-line-highlight {
+  color: rgb(var(--light-red));
 }
 
 
